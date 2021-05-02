@@ -12,7 +12,7 @@ let loadImage = (src,callback) => {
 }
 
 let imagePath =(frameNumber, animation) => {
-    return "C:/Users/nishal/OneDrive/Desktop/web-101/images/"+ animation + "/"+ frameNumber +".png";
+    return "images/"+ animation + "/"+ frameNumber +".png";
 };
 
 let frames = {
